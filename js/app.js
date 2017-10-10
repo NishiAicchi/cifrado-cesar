@@ -7,8 +7,10 @@ El usuario no debe poder ingresar un campo vacío o que contenga números*/
 
 do {
   var phrase = prompt("Hola, inserta una frase...");
-}  while (!phrase);
+}  while (!phrase) ;
 
-function cipher (phrase) {
+var arr = phrase.split(" ");
 
-}
+function cipher (letterPosition, fixedValue)
+  
+
